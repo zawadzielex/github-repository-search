@@ -2,7 +2,11 @@
 
 Application using REST API for searching repository in GitHub.
 
--   REST API described at https://developer.github.com/v3/
--   Application consisted of 3 parts: Search, Resultsand Details.
--   Application have offline capabilities. Every search made by a user are cached to provide results without Internet connection.
--   OAuth
+- REST API described at https://developer.github.com/v3/
+- Application consisted of 3 parts: Search, Results and Details.
+  connection.
+- OAuth (Only authorization for resources - without internal authentication system )
+
+## Using app
+
+To use app create .env file with proper data (check .env.template file)
